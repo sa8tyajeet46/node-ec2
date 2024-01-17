@@ -7,6 +7,6 @@ app.get("/",async (req,res)=>{
     })
 })
 
-app.listen(8080,()=>{
+app.listen(5001 || process.env.PORT,()=>{
     console.log("app is running")
 })
